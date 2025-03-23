@@ -1,25 +1,45 @@
 .header  {
   font-family: monospace;
   background: papayawhip;
+  display: flex;
+  justify-content: space-between;
 }
 
 .logo {
   font-size: 48px;
-  font-weight: 900;
+  font-weight: bold;
   color: tomato;
   background: white;
   padding: 4px 32px;
+  margin: 8px;
+}
+
+.left-links {
+  display: flex;
+  align-items: center;
+  padding: 8px;
+}
+
+.right-links {
+  display: flex;
+  align-items: center;
+  padding: 8px;
 }
 
 ul {
   /* this removes the dots on the list items*/
   list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
 }
 
 a {
   font-size: 22px;
   background: white;
   padding: 8px;
+  margin: 0 8px;
+  font-weight: bold;
   /* this removes the line under the links */
   text-decoration: none;
 }
